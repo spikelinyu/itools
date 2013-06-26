@@ -154,16 +154,21 @@ module.exports = {
 //正则
 //watch('d:\nodetest\copyForm', 'd:\nodetest\copyTo', {watched: true, regex: '(.+)\.[js|css|png|jpg|txt]$'});
 //过滤测试
-watch('/Users/spikelinyu/project/sportal/assets', '/Volumes/assets/suhe/u_sportal_pre/apps/sportal', {watched: true,  filter:{
+watch('/Users/spikelinyu/project/sportal/assets/3.0', '/Volumes/assets/suhe/u_sportal_pre/apps/sportal/3.0', {watched: true,  filter:{
     //包含
     type:0,
-    patterns:['css','js']
+    patterns:['css','js','less']
 }});
+
+//watch('/Users/spikelinyu/project/sportalapps/assets', '/Volumes/assets/suhe/u_sportalapps_pre/apps/sportalapps', {watched: true,  filter:{
+//    //包含
+//    type:0,
+//    patterns:['css','js']
+//}});
+
 
 /**
  * Note:
  * 2013-4-15
  * -first add
- *
- *
  */
